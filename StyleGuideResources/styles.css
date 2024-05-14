@@ -1,0 +1,408 @@
+/*universal*/
+@font-face {
+    font-family: "Jaini";
+    src: url(../StyleGuideResources/fonts/Jaini/Jaini-Regular.ttf);
+}
+@font-face {   
+    font-family: "PlayFairDisplay";
+    src: url(../StyleGuideResources/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "PlayFairDisplayItalic";
+    src: url(../StyleGuideResources/fonts/PlayfairDisplay/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}    
+@font-face {
+    font-family: "Poppins";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "PoppinsItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-BlackItalic.ttf);
+}    
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-Bold.ttf)
+} 
+@font-face {
+    font-family: "PoppinsBoldItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsExtraBold";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "PoppinsExtraBoldItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsExtraLight";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "PoppinsExtraLightItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsLight";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "PoppinsLightItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-LightItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "PoppinsMediumItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "PoppinsSemiBoldItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "PoppinsThin";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: "PoppinsThinItalic";
+    src: url(../StyleGuideResources/fonts/Poppins/Poppins-ThinItalic.ttf);
+}
+@font-face {
+    font-family: "SedanSC";
+    src: url(../StyleGuideResources/fonts/SedanSC/SedanSC-Regular.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../StyleGuideResources/fonts/Chilanka/Chilanka-Regular.ttf);
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../StyleGuideResources/images/Snapchat-369883116.jpg);
+    position: fixed;
+    overflow-y: auto;
+    scrollbar-width: 10px;
+    margin-right: 10px;
+}
+
+body {
+overflow-x: hidden;
+}
+
+/*Header*/
+
+
+main {
+    background-color: #1a0d0d;
+    color: #f2c75c;
+    margin-top: 92px;
+    margin-right: 7%;
+    margin-left: 7%;
+    border: 3px solid #f2c75c;
+    border-radius: 10px;
+    font-weight: bold;
+    height: max-content;
+    text-justify: center;
+    width: 86%;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px 10px;
+}
+
+
+h1 {
+    text-align: left;
+    text-justify: center;
+    font-size: 3em;
+    font-family: "SedanSC";
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: underline;
+    
+
+}
+p {
+    color: white;
+    top: 0;
+    font-family: "PlayFairDisplay";
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+/*Navbar*/
+
+
+*,
+::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  min-height: fit-content;
+  display: fixed;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  margin-bottom: 200px;
+}
+
+#navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  height: 90px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #7c0a0a;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px 10px;
+  position: fixed;
+  top: 0;
+}
+
+#boogie-on {
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.colors,
+.fonts,
+.text-styles,
+.cover-page {
+  position: relative;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  margin: 0 30px;
+  border: 2px solid #f2c75c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.colors a,
+.fonts a,
+.text-styles a,
+.cover-page a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #f2c75c;
+  z-index: 10;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.colors:hover a,
+.fonts:hover a,
+.text-styles:hover a,
+.cover-page:hover a {
+  color: #7c0a0a;
+}
+
+.colors:before,
+.fonts:before,
+.text-styles:before,
+.cover-page:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  transform: skew(30deg);
+  background: #f2c75c;
+  transition: width 400ms ease;
+}
+
+.colors:hover:before,
+.fonts:hover:before,
+.text-styles:hover:before,
+.cover-page:hover:before {
+  width: 120%;
+}
+
+.colors:nth-child(2):before,
+.fonts:nth-child(2):before,
+.text-styles:nth-child(2):before,
+.cover-page:nth-child(2):before {
+  transform: skew(-20deg);
+}
+
+.colors:nth-child(3):before,
+.fonts:nth-child(3):before,
+.text-styles:nth-child(3):before,
+.cover-page:nth-child(3):before {
+  transform: skew(0deg);
+}
+
+.colors:nth-child(4):before,
+.fonts:nth-child(4):before,
+.text-styles:nth-child(4):before,
+.cover-page:nth-child(4):before {
+  width: 180px;
+  height: 0%;
+  bottom: 0px;
+  transition: height 400ms ease;
+}
+
+.colors:nth-child(4):hover:before,
+.fonts:nth-child(4):hover:before,
+.text-styles:nth-child(4):hover:before,
+.cover-page:nth-child(4):hover:before {
+  height: 100%;
+}
+
+
+
+
+
+/*all the content stylings will go below here*/
+
+
+table {
+    border: 2px solid #f2c75c;
+    border-radius: 10px;
+    background-color: #7c0a0a;
+    color: #f2c75c;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    column-span: 5;
+    text-align: center;
+    height: fit-content;
+    width: 90%;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px 10px;
+}
+th {
+    background-color: #1a0d0d;
+    border: 2px solid #f2c75c;
+    border-radius: 10px;
+    width: 33%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "PlayFairDisplay";
+}
+
+
+td {
+    line-height: 5;
+    border: 3px solid #1a0d0d;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.col1 {
+    font-size: 25px;
+    background-color: #1a0d0d;
+    border: 2px solid #f2c75c;
+    color: white;
+
+}
+.col3 {
+    color: white;
+    background-color: #1a0d0d;
+    border: 2px solid #f2c75c;
+}
+
+
+
+/*content-colors-specific*/
+
+.color-panel-Bloody-Red {
+    background-color: rgb(177, 5, 5);
+}
+.color-panel-Jacko-Orange {
+    background-color: rgb(240, 125, 31);
+}
+.color-panel-Torch-Yellow {
+    background-color: rgb(240, 226, 31);
+}
+.color-panel-Poison-Green {
+    background-color: rgb(16, 63, 6);
+}
+.color-panel-Midnight-Blue {
+    background-color: rgb(0, 30, 75);
+}
+.color-panel-Toxic-Purple {
+    background-color: rgb(55, 0, 128);
+}
+.color-panel-Salem-Black {
+    background-color: rgb(7, 7, 7);
+}
+.color-panel-Ghost-White {
+    background-color: rgb(248, 248, 248);
+}
+
+
+/* content-fonts-specific*/
+
+.fontjaini {
+    font-family: "Jaini";
+    line-height: 2;
+}
+.fontsedan {
+    font-family: "SedanSC";
+    line-height: 2;
+}
+.fontpoppins {
+    font-family: "Poppinsmedium", "PoppinsBold", "PoppinsItalic";
+    line-height: 2;
+}
+.fontplay {
+    font-family: "PlayFairDisplay";
+    line-height: 2;
+}
+.fontchilanka {
+    font-family: "Chilanka";
+    line-height: 2;
+}
+
+
+
+
+/* content-styles-specific */
+
+.stylcol2 {
+    line-height: 2;
+}
+
+/*Footer*/
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    line-height: 20px;
+    background-color: #7c0a0a;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -13px 10px 3px;
+}
